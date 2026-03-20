@@ -1,9 +1,7 @@
 name: Indexing bench (push)
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   benchmarks:

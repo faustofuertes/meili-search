@@ -1,5 +1,6 @@
 name: Benchmarks (PR)
-on: issue_comment
+on:
+  workflow_dispatch:
 permissions:
   issues: write
 

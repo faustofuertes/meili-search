@@ -1,9 +1,7 @@
 name: Benchmarks of search for Wikipedia articles (push)
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 env:
   BENCH_NAME: "search_wiki"

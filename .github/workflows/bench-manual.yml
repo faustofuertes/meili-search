@@ -2,11 +2,6 @@ name: Bench (manual)
 
 on:
   workflow_dispatch:
-    inputs:
-      workload:
-        description: "The path to the workloads to execute (workloads/...)"
-        required: true
-        default: "workloads/movies.json"
 
 env:
   WORKLOAD_NAME: ${{ github.event.inputs.workload }}

@@ -1,9 +1,7 @@
 name: Benchmarks of indexing (push)
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 env:
   INFLUX_TOKEN: ${{ secrets.INFLUX_TOKEN }}

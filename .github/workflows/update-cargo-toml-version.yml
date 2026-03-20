@@ -2,10 +2,6 @@ name: Update Meilisearch version in Cargo.toml
 
 on:
   workflow_dispatch:
-    inputs:
-      new_version:
-        description: "The new version (vX.Y.Z)"
-        required: true
 
 env:
   NEW_VERSION: ${{ github.event.inputs.new_version }}
